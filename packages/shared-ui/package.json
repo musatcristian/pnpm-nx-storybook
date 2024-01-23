@@ -9,5 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
