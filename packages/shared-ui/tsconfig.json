@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "jsx": "preserve",
-    "allowJs": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "module": "CommonJS",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "strict": true,
+    "noEmit": false,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "components": ["components"]
+    }
   },
-  "include": ["."],
-  "exclude": ["dist", "node_modules", "**/*.test.(ts|tsx)"]
+  "include": ["./components"],
+  "exclude": ["./dist", "./node_modules", "**/*.test.(ts|tsx)"]
 }
