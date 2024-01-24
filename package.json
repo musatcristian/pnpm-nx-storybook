@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:app": "nx start surface-app",
+    "build:packages": "nx build shared-ui",
+    "graph": "nx graph"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "nx": "*"
+  }
 }
