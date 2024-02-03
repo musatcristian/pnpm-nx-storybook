@@ -2,3 +2,8 @@ node_modules
 dist
 build
 .nx
+.next
+**/.next/**
+**/_next/**
+**/.vscode/**
+**/dist/**
